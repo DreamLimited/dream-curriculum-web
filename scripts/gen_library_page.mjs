@@ -3,7 +3,7 @@
  * Generate docs/library.md from downloads-manifest.json.
  *
  * Reads the manifest produced by gen_downloads_manifest.mjs and emits the
- * VitePress Library page docs/library.md, with every file rendered as a
+ * VitePress Library page docs/library/index.md, with every file rendered as a
  * pre-built download card. Generated at build time so the page always matches
  * the on-disk downloads tree exactly.
  */
@@ -14,7 +14,10 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const MANIFEST = path.join(ROOT, "docs", "public", "downloads-manifest.json");
-const OUT = path.join(ROOT, "docs", "library.md");
+// Emit as a directory index (library/index.md) so GitHub Pages resolves the
+// nav/home link `/library/` -> library/index.html. A flat library.md would
+// produce library.html, which `/library/` does not resolve to on a static host.
+const OUT = path.join(ROOT, "docs", "library", "index.md");
 
 const ORDER = [
   "01-doctrine",
@@ -104,6 +107,7 @@ if (!fs.existsSync(MANIFEST)) {
 }
 const manifest = JSON.parse(fs.readFileSync(MANIFEST, "utf8"));
 const page = buildPage(manifest);
+fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, page, "utf8");
 const groups = Object.values(manifest.folders).filter((g) => g.files.length).length;
 console.log(`Wrote ${path.basename(OUT)}: ${manifest.counts.total} files across ${groups} groups`);

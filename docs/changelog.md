@@ -10,7 +10,17 @@ title: "Changelog — What Changed in the Launchpad Sandbox"
 
 ---
 
-## 2026-08-05 — v0.5.1: release-readiness wave (repo)
+## 2026-08-05 — v0.5.2: UI modernization wave (repo)
+
+A presentation-only upgrade to the VitePress site that ships the web portal UI. **This wave changes no taught content** — the `doctrine/` 01–10 lessons and all `literacy/` teaching pages are byte-identical; only the site shell, theme, and landing surfaces changed.
+
+- **Purpose-built footer on every page** — global one-liner replaced with a rich custom footer injected via the `layout-bottom` slot (`DreamHiveLayout.vue` + `footer: false` config). Brand line, doctrine tagline, quick-nav columns (Doctrine · Modules · Course · Literacy · Library · Case Study), and the legal disclaimer ("Educational material. Not legal, financial, or offer advice; not affiliated with SAM.gov / GSA / any agency."). Static "Doctrine v0.5.2" line replaces the non-CI-safe `lastUpdated`. Renders on home, every doc subpage, library, case-library, and 404 (404 is an SPA shell hydrated through the same Layout at runtime).
+- **Nav: `Course` → `Courses` dropdown; `Modules` dropdown** — both now list the degree-ladder / major-module items mirroring their sidebars. `editLink` ("Edit this page on GitLab") removed — public-facing site should not source to internal GitLab.
+- **Sun/moon appearance toggle** — VitePress's built-in switch styled with a smooth cross-fade + rotate (`dh-appearance.css`); persists to `localStorage`; fully `prefers-reduced-motion` aware.
+- **Motion + aurora hero + card system** — load-in micro-animations, scroll-reveal via CSS scroll-timeline (static fallback), hover/active micro-interactions, aurora hero background, card system (12–16px rounding, soft border, hover lift) extended to the doctrine 01–10 grid, sticky nav backdrop blur, reading-progress bar, stat count-up. All gated behind one consolidated `prefers-reduced-motion` block.
+- **Home value-stack restructure + social OG** — `index.md` homepage restructured; doctrine index is now a descriptive card grid with meta + self-check pill. OG/Twitter cards (`og:image` 1200×630, `og:url`, `summary_large_image`) added in `config.mjs` head; `og-image.png` added under `docs/public/`.
+
+Manifest doc count unchanged at 134 (no new curriculum `.md` added — UI work touched no teachable docs). VERSION bumped `0.5.1` → `0.5.2`. Deployed via GitHub mirror → `gh-pages` → learn.dreamhive.org.
 
 A correctness sweep of the reference layer ahead of declaring the curriculum finished. **This wave changes no taught content** — it fixes stale claims, closes cross-references, and adds an integrity gate.
 

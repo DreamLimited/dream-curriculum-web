@@ -1,6 +1,21 @@
 /**
  * Dream Hive — VSDocs-style documentation theme
  * Immersive, dark-capable, purple-branded. Clean typographic docs shell.
+ *
+ * This file carries the "motion + premium component" layer:
+ *   1. Reduced-motion master kill-switch
+ *   2. Load-in micro-animations
+ *   3. Scroll-reveal (CSS scroll-timeline, progressive enhancement)
+ *   4. Hover/active micro-interactions
+ *   5. Aurora hero background
+ *   6. Premium card system (.ui-card / .ui-card-grid + refined .dl-card)
+ *   7. Reading-progress bar (CSS scroll-timeline)
+ *   8. Sticky nav backdrop blur + focus-visible + color-scheme
+ *   9. Stat / count-up display styles
+ *
+ * Everything is static-HTML-safe: no React, no bundler, no framework JS.
+ * Every effect has a reduced-motion kill switch, and content is statically
+ * visible by default (progressive-enhancement only).
  */
 :root {
   /* Dream Hive purple palette */
@@ -20,11 +35,500 @@
   --vp-home-hero-name-background: linear-gradient(120deg, #6d3fc8 30%, #a78bfa);
   --vp-home-hero-image-background-image: radial-gradient(80% 80% at 50% 50%, rgba(109, 63, 200, 0.35) 0%, transparent 70%);
   --vp-custom-block-tip-border: #6d3fc8;
+
+  /* ---- Premium layer: design tokens ----------------------------------- */
+  /* Spring-like easing used on press/active affordances. */
+  --dl-ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  /* Standard smooth easing for hovers/transitions. */
+  --dl-ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  /* Tonal glow color from the brand (light + dark variants). */
+  --dl-glow: rgba(138, 92, 246, 0.45);
+  --dl-glow-dark: rgba(139, 92, 246, 0.55);
+  /* Layered shadow for premium cards. */
+  --dl-card-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(91, 45, 144, 0.1);
+  --dl-card-shadow-hover: 0 2px 6px rgba(0, 0, 0, 0.08), 0 18px 40px rgba(91, 45, 144, 0.22);
+  /* Reading-progress gradient along the brand ramp. */
+  --dl-progress-gradient: linear-gradient(90deg, #6d3fc8, #a78bfa);
 }
 
 .dark {
   --vp-c-brand-soft: rgba(167, 139, 250, 0.16);
+  --dl-glow: rgba(139, 92, 246, 0.5);
+  --dl-card-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px rgba(0, 0, 0, 0.5);
+  --dl-card-shadow-hover: 0 2px 6px rgba(0, 0, 0, 0.5), 0 18px 40px rgba(139, 92, 246, 0.28);
 }
+
+/* ----------------------------------------------------------------------
+ * 1. REDUCED-MOTION MASTER KILL-SWITCH
+ *
+ * A single, discoverable consolidated block: any user who has requested
+ * reduced motion gets all animation, transitions, and scroll-timeline
+ * effects neutralized system-wide. This is authoritative — it wins over
+ * every keyframe and transition defined elsewhere in the file.
+ * -------------------------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  html,
+  body {
+    scroll-behavior: auto !important;
+  }
+
+  /* Kill every animation and keyframe across the whole site. */
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    animation-timeline: auto !important;
+    animation-range: normal !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+    /* Also neutralize the aurora drift pseudo-element if present. */
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+  }
+
+  /* Reading-progress bar: freeze to a neutral static state (style remains,
+     no motion). */
+  body::before {
+    transform: scaleX(0) !important;
+  }
+
+  /* Disable hover lift/glow so nothing "moves" under the cursor. */
+  .VPNavBar a:hover,
+  .dl-card:hover,
+  .ui-card:hover,
+  .VPNavBar .nav-item,
+  .VPNavBar a {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Keep cards fully opaque and readable. */
+  .dl-card,
+  .ui-card,
+  .VPHero .container .main::after,
+  .ui-card-grid > *,
+  [data-reveal] {
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* ----------------------------------------------------------------------
+ * 2. LOAD-IN MICRO-ANIMATIONS
+ *
+ * Subtle fade/slide-in (< 400ms, < 2px drift, staggered via animation-delay).
+ * LCP text (the hero <h1> .name/.text) is deliberately NOT animated —
+ * readability first. Only the hero tagline/actions and feature cards fade.
+ *
+ * The base state is fully opaque: without the animation (no-JS, or reduced
+ * motion) content is simply visible.
+ * -------------------------------------------------------------------- */
+
+/* The single shared keyframe. */
+@keyframes dlFadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Feature / reveal cards loaded with the page. */
+.dl-card,
+.ui-card {
+  animation: dlFadeUp 0.35s var(--dl-ease-out) both;
+}
+.dl-card:nth-child(2),
+.ui-card-grid > *:nth-child(2) {
+  animation-delay: 0.05s;
+}
+.dl-card:nth-child(3),
+.dl-grid > *:nth-child(3),
+.ui-card-grid > *:nth-child(3) {
+  animation-delay: 0.1s;
+}
+.dl-card:nth-child(4),
+.dl-grid > *:nth-child(4),
+.ui-card-grid > *:nth-child(4) {
+  animation-delay: 0.15s;
+}
+.dl-card:nth-child(n + 5),
+.dl-grid > *:nth-child(n + 5),
+.ui-card-grid > *:nth-child(n + 5) {
+  animation-delay: 0.2s;
+}
+
+/* Hero tagline + action buttons fade in (NOT the headline). */
+.VPHero .main .subtitle,
+.VPHero .main .actions {
+  animation: dlFadeUp 0.4s var(--dl-ease-out) 0.12s both;
+}
+
+/* ----------------------------------------------------------------------
+ * 3. SCROLL-REVEAL (CSS SCROLL-TIMELINE)
+ *
+ * Where `animation-timeline: view()` is supported, sections gently fade up
+ * as they enter the viewport. Progressive enhancement ONLY: in the
+ * baseline fallback nothing is hidden — the `[data-reveal]` base rule sets
+ * opacity: 1, so content is statically visible without scroll-timeline.
+ * -------------------------------------------------------------------- */
+@supports (animation-timeline: view()) {
+  /* Baseline: fully visible. The scroll-linked animation only applies
+     while supported and near the viewport entry. */
+  [data-reveal] {
+    opacity: 1;
+    animation: dlReveal 0.6s var(--dl-ease-out) both;
+    animation-timeline: view();
+    animation-range: entry 0% entry 32%;
+  }
+
+  /* Optional stagger for card grids as they enter as a group. */
+  .ui-card-grid [data-reveal]:nth-child(2) {
+    animation-range: entry 2% entry 34%;
+  }
+  .ui-card-grid [data-reveal]:nth-child(3) {
+    animation-range: entry 4% entry 36%;
+  }
+}
+
+@keyframes dlReveal {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Fallback safety: if the browser lacks scroll-timeline, `[data-reveal]`
+   must (and does) remain fully visible. This rule exists purely to make that
+   contract explicit and self-documenting. */
+[data-reveal] {
+  opacity: 1;
+}
+
+/* ----------------------------------------------------------------------
+ * 4. HOVER / ACTIVE MICRO-INTERACTIONS
+ *
+ * Nav items and cards get a soft lift + brand-color glow; buttons get a
+ * subtle press scale with a spring-like ease. Springy but tasteful.
+ * -------------------------------------------------------------------- */
+
+/* Nav links */
+.VPNavBar a,
+.VPNavBar .VPNavBarMenuLink {
+  transition: color 0.2s var(--dl-ease-out), background-color 0.2s var(--dl-ease-out),
+    transform 0.2s var(--dl-ease-out), box-shadow 0.2s var(--dl-ease-out);
+}
+.VPNavBar a:hover,
+.VPNavBar .VPNavBarMenuLink:hover {
+  transform: translateY(-1px);
+}
+
+/* Cards: soft lift + tinted glow ring. */
+.dl-card,
+.ui-card {
+  transition: border-color 0.25s var(--dl-ease-out), transform 0.25s var(--dl-ease-out),
+    box-shadow 0.25s var(--dl-ease-out), background-color 0.25s var(--dl-ease-out);
+}
+.dl-card:hover,
+.ui-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-4px);
+  box-shadow: var(--dl-card-shadow-hover);
+  background-color: var(--vp-c-bg-elv);
+}
+
+/* Generic buttons: press-scale with spring. */
+.vp-doc button,
+.vp-doc .action,
+.VPHero .actions a,
+button,
+[role='button'] {
+  transition: transform 0.18s var(--dl-ease-spring), box-shadow 0.18s var(--dl-ease-out),
+    background-color 0.18s var(--dl-ease-out), color 0.18s var(--dl-ease-out);
+}
+.vp-doc button:active,
+.vp-doc .action:active,
+.VPHero .actions a:active,
+button:active,
+[role='button']:active {
+  transform: scale(0.97);
+}
+
+/* ----------------------------------------------------------------------
+ * 5. AURORA HERO BACKGROUND
+ *
+ * A slow, animated gradient-mesh behind the hero. The gradients are painted
+ * on a fixed pseudo-element so the animation only nudges background-position
+ * (cheap) over ~16s. The static fallback is an instantly-present mesh, so
+ * without animation (reduced motion) the hero still looks premium.
+ * -------------------------------------------------------------------- */
+@media (min-width: 640px) {
+  .VPHero,
+  .VPHero .container {
+    position: relative;
+    isolation: isolate;
+  }
+
+  /* Static mesh — always present, gentle purple aurora. */
+  .VPHero .container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-image:
+      radial-gradient(46% 38% at 18% 22%, rgba(109, 63, 200, 0.28) 0%, transparent 70%),
+      radial-gradient(40% 34% at 80% 15%, rgba(167, 139, 250, 0.22) 0%, transparent 72%),
+      radial-gradient(46% 40% at 65% 85%, rgba(91, 45, 144, 0.2) 0%, transparent 70%),
+      radial-gradient(36% 30% at 30% 70%, rgba(139, 92, 246, 0.14) 0%, transparent 72%);
+    background-size: 160% 160%;
+    background-repeat: no-repeat;
+    filter: blur(6px);
+  }
+
+  /* Slow drift — killed by the reduced-motion master block above. */
+  .VPHero .container::before {
+    animation: dlAuroraDrift 16s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes dlAuroraDrift {
+  0% {
+    background-position: 0% 0%;
+    opacity: 0.7;
+  }
+  50% {
+    background-position: 55% 45%;
+    opacity: 1;
+  }
+  100% {
+    background-position: 100% 100%;
+    opacity: 0.8;
+  }
+}
+
+/* Ensure the hero still contains its elements above the layer. */
+.VPHero .container {
+  z-index: 0;
+}
+
+/* ----------------------------------------------------------------------
+ * 6. PREMIUM CARD SYSTEM
+ *
+ * A generic `.ui-card` + responsive `.ui-card-grid` alongside the existing
+ * `.dl-card` / `.dl-grid`. Rounded 12-16px corners, soft border, gentle
+ * layered shadow, hover lift. Extends (rather than replaces) the downloads
+ * cards so existing markup keeps working.
+ * -------------------------------------------------------------------- */
+
+/* Downloads grid (unchanged contract, refined visuals). */
+.dl-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  margin: 1.5rem 0;
+}
+
+.dl-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  padding: 18px 18px 16px;
+  background: var(--vp-c-bg-soft);
+  box-shadow: var(--dl-card-shadow);
+}
+.dl-card:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateY(-4px);
+  box-shadow: var(--dl-card-shadow-hover);
+}
+.dl-card .dl-name {
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--vp-c-text-1);
+  word-break: break-word;
+}
+.dl-card .dl-meta {
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+  margin-bottom: 8px;
+}
+.dl-card a {
+  font-weight: 600;
+}
+
+/* Generic premium card. */
+.ui-card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  padding: 20px;
+  background: var(--vp-c-bg-soft);
+  box-shadow: var(--dl-card-shadow);
+}
+.ui-card h3,
+.ui-card .ui-card-title {
+  margin-top: 0;
+}
+.ui-card a {
+  font-weight: 600;
+}
+
+/* Responsive 2–3 column grid for generic cards. */
+.ui-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+  margin: 1.5rem 0;
+}
+@media (min-width: 960px) {
+  .ui-card-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (min-width: 640px) and (max-width: 959px) {
+  .ui-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ----------------------------------------------------------------------
+ * 7. READING-PROGRESS BAR
+ *
+ * A thin scroll-linked progress bar fixed to the top of the page, driven
+ * purely by CSS `animation-timeline: scroll(root)` + `scaleX` (origin-left).
+ * No JS. Guarded by `@supports` so it's simply absent (body::before default)
+ * where unsupported. Killed for reduced motion by the master block above;
+ * hidden on mobile where a native scrollbar is already present.
+ * -------------------------------------------------------------------- */
+@supports (animation-timeline: scroll()) {
+  body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    width: 100%;
+    height: 3px;
+    background: var(--dl-progress-gradient);
+    transform-origin: left center;
+    transform: scaleX(0);
+    animation: dlProgress linear both;
+    animation-timeline: scroll(root);
+  }
+}
+
+@keyframes dlProgress {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+/* Hide on small screens where a native touch scrollbar exists. */
+@media (max-width: 640px) {
+  body::before {
+    display: none;
+  }
+}
+
+/* ----------------------------------------------------------------------
+ * 8. STICKY NAV BACKDROP BLUR + FOCUS + COLOR-SCHEME
+ *
+ * The nav shell (`.VPNavBar`, rendered by VitePress 1.6) gets a translucent
+ * background + backdrop blur so content scrolling beneath it is softly
+ * frosted. A `color-scheme` declaration keeps form controls and scrollbars
+ * themed correctly. Interactive elements get aria-friendly visible
+ * focus-visible outlines.
+ * -------------------------------------------------------------------- */
+
+/* Frosted, translucent nav. */
+.VPNavBar {
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  background-color: rgba(255, 255, 255, 0.68);
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+.dark .VPNavBar {
+  background-color: rgba(19, 20, 40, 0.66);
+}
+
+/* color-scheme theming for native controls / scrollbars. */
+:root {
+  color-scheme: light;
+}
+.dark {
+  color-scheme: dark;
+}
+
+/* aria-friendly focus-visible outlines on interactive elements. */
+a:focus-visible,
+button:focus-visible,
+[role='button']:focus-visible,
+.VPNavBar a:focus-visible,
+.dl-card a:focus-visible,
+.ui-card a:focus-visible {
+  outline: 2px solid var(--vp-c-brand-1);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ----------------------------------------------------------------------
+ * 9. STAT / COUNT-UP DISPLAY
+ *
+ * Styles for `.stat` / `.count-up` number displays (e.g. homepage stats).
+ * Uses tabular-nums so counting digits don't jitter. The JS count-up itself
+ * may be added by another agent — here we only style the container and
+ * provide a graceful static fallback visual for no-JS.
+ * -------------------------------------------------------------------- */
+.stat {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum';
+  font-weight: 600;
+  color: var(--vp-c-brand-1);
+  letter-spacing: -0.01em;
+}
+.dark .stat {
+  color: var(--vp-c-brand-1-dark);
+}
+
+.count-up {
+  display: inline-block;
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: 'tnum';
+}
+
+/* Stat row / group layout for homepage "hero numbers". */
+.stat-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem 3rem;
+  margin: 1.5rem 0;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  background: var(--vp-c-bg-soft);
+  box-shadow: var(--dl-card-shadow);
+}
+.stat-group .stat-item {
+  display: flex;
+  flex-direction: column;
+}
+.stat-group .stat-item .stat-label {
+  font-size: 0.8rem;
+  color: var(--vp-c-text-2);
+  margin-top: 2px;
+}
+
+/* ----- base theme enhancements (unchanged contract) ------------------- */
 
 /* Typography polish */
 :root {
@@ -51,39 +555,6 @@
 /* Footer */
 .VPFooter {
   border-top: 1px solid var(--vp-c-divider);
-}
-
-/* Download cards */
-.dl-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 16px;
-  margin: 1.5rem 0;
-}
-.dl-card {
-  border: 1px solid var(--vp-c-divider);
-  border-radius: 12px;
-  padding: 16px;
-  background: var(--vp-c-bg-soft);
-  transition: border-color 0.2s, transform 0.2s;
-}
-.dl-card:hover {
-  border-color: var(--vp-c-brand-1);
-  transform: translateY(-2px);
-}
-.dl-card .dl-name {
-  font-weight: 600;
-  margin-bottom: 4px;
-  color: var(--vp-c-text-1);
-  word-break: break-word;
-}
-.dl-card .dl-meta {
-  font-size: 0.85rem;
-  color: var(--vp-c-text-2);
-  margin-bottom: 8px;
-}
-.dl-card a {
-  font-weight: 600;
 }
 
 /* Hero subtitle kicker */

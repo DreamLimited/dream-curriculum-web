@@ -11,6 +11,10 @@ export default defineConfig({
     ['meta', { property: 'og:title', content: 'Dream Hive — The Dream Pursuit Doctrine' }],
     ['meta', { property: 'og:description', content: 'A concept-first, college-ready curriculum for winning federal business. Doctrine, modules, literacy, case library, and study plans.' }],
     ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:url', content: 'https://learn.dreamhive.org/' }],
+    ['meta', { property: 'og:image', content: '/og-image.png' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:image', content: '/og-image.png' }],
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
   ],
   appearance: true,
@@ -33,8 +37,31 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Doctrine', link: '/doctrine/' },
-      { text: 'Course', link: '/course/' },
-      { text: 'Modules', link: '/modules/' },
+      {
+        text: 'Courses',
+        link: '/course/',
+        activeMatch: '^/course/',
+        items: [
+          { text: 'Syllabus', link: '/course/syllabus-semester' },
+          { text: 'Undergraduate', link: '/course/undergraduate-program-overview' },
+          { text: 'Graduate', link: '/course/graduate-program-overview' },
+          { text: 'Doctoral', link: '/course/doctoral-program-overview' },
+          { text: 'Capstone', link: '/course/capstone-build-an-orbital' },
+          { text: 'Forever-Learning', link: '/course/forever-learning-program' },
+        ],
+      },
+      {
+        text: 'Modules',
+        link: '/modules/',
+        activeMatch: '^/modules/',
+        items: [
+          { text: 'Shared Core', link: '/modules/shared-core' },
+          { text: 'Strategic Initiative', link: '/modules/strategic-initiative' },
+          { text: 'MBA', link: '/modules/mba' },
+          { text: 'MPA', link: '/modules/mpa' },
+          { text: 'Graduate Programs', link: '/modules/graduate/' },
+        ],
+      },
       { text: 'Literacy', link: '/literacy/' },
       { text: 'Case Study', link: '/case-study/' },
       { text: 'Library', link: '/library/' },
@@ -145,10 +172,10 @@ export default defineConfig({
         },
       ],
     },
-    footer: {
-      message: 'The Dream Pursuit Doctrine — a concept-first curriculum for winning federal business.',
-      copyright: '© 2026 Dream Hive · DreamLimited',
-    },
+    footer: false, // Stock VPFooter hides on sidebar pages; a purpose-built footer
+    // is injected via the `layout-bottom` slot in DreamHiveLayout.vue so it
+    // renders on every page (home, docs, 404, library).
+    doctrineVersion: '0.5.1', // Static footer version line; CI can't shell `git log`.
     search: {
       provider: 'local',
       options: {
@@ -156,10 +183,6 @@ export default defineConfig({
           button: { buttonText: 'Search the doctrine', buttonAriaLabel: 'Search' },
         },
       },
-    },
-    editLink: {
-      pattern: 'https://git.developerdojo.org/DreamLimited/dream-curriculum/edit/main/:path',
-      text: 'Edit this page on GitLab',
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/DreamLimited/dream-curriculum-web' },

@@ -42,6 +42,9 @@ build:
     paths:
       - node_modules/
   script:
+    # VitePress needs git in the image for lastUpdated/editLink page metadata
+    # (it shells out to `git log`), and node:22-alpine has none. Install it.
+    - apk add --no-cache git
     - npm ci --no-audit --no-fund
     - npm run docs:build
   rules:

@@ -13,7 +13,10 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
   ],
   appearance: true,
-  lastUpdated: true,
+  // lastUpdated is disabled: VitePress computes it by shelling out to `git log`
+  // per page at build time, which fails on the non-root CI image (no `spawn git`).
+  // This is a static curriculum site — commit-date footers aren't meaningful.
+  lastUpdated: false,
   cleanUrls: true,
   // The source curriculum uses many relative cross-links into a wider tree;
   // not all resolve inside the docs slice. GitHub Pages serves the built site,

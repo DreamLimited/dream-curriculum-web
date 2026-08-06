@@ -1,0 +1,2469 @@
+{
+  "generated": "2026-08-06",
+  "counts": {
+    "total": 267,
+    "docx": 134,
+    "pdf": 133,
+    "total_bytes": 19729122
+  },
+  "folders": {
+    "01-doctrine": {
+      "label": "Doctrine — core truths and framing",
+      "files": [
+        {
+          "path": "01-doctrine/01-where-the-money-lives.docx",
+          "url": "/downloads/01-doctrine/01-where-the-money-lives.docx",
+          "name": "01-where-the-money-lives.docx",
+          "ext": "docx",
+          "size": 23200,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/01-where-the-money-lives.pdf",
+          "url": "/downloads/01-doctrine/01-where-the-money-lives.pdf",
+          "name": "01-where-the-money-lives.pdf",
+          "ext": "pdf",
+          "size": 44476,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/02-rfps-and-solicitations.docx",
+          "url": "/downloads/01-doctrine/02-rfps-and-solicitations.docx",
+          "name": "02-rfps-and-solicitations.docx",
+          "ext": "docx",
+          "size": 22801,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/02-rfps-and-solicitations.pdf",
+          "url": "/downloads/01-doctrine/02-rfps-and-solicitations.pdf",
+          "name": "02-rfps-and-solicitations.pdf",
+          "ext": "pdf",
+          "size": 121185,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/03-the-pursuit-pipeline.docx",
+          "url": "/downloads/01-doctrine/03-the-pursuit-pipeline.docx",
+          "name": "03-the-pursuit-pipeline.docx",
+          "ext": "docx",
+          "size": 22705,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/03-the-pursuit-pipeline.pdf",
+          "url": "/downloads/01-doctrine/03-the-pursuit-pipeline.pdf",
+          "name": "03-the-pursuit-pipeline.pdf",
+          "ext": "pdf",
+          "size": 45122,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/04-gates-and-governance.docx",
+          "url": "/downloads/01-doctrine/04-gates-and-governance.docx",
+          "name": "04-gates-and-governance.docx",
+          "ext": "docx",
+          "size": 24124,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/04-gates-and-governance.pdf",
+          "url": "/downloads/01-doctrine/04-gates-and-governance.pdf",
+          "name": "04-gates-and-governance.pdf",
+          "ext": "pdf",
+          "size": 45766,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/05-scoring-and-price-to-win.docx",
+          "url": "/downloads/01-doctrine/05-scoring-and-price-to-win.docx",
+          "name": "05-scoring-and-price-to-win.docx",
+          "ext": "docx",
+          "size": 22266,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/05-scoring-and-price-to-win.pdf",
+          "url": "/downloads/01-doctrine/05-scoring-and-price-to-win.pdf",
+          "name": "05-scoring-and-price-to-win.pdf",
+          "ext": "pdf",
+          "size": 40256,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/06-orbital-business-structure.docx",
+          "url": "/downloads/01-doctrine/06-orbital-business-structure.docx",
+          "name": "06-orbital-business-structure.docx",
+          "ext": "docx",
+          "size": 22357,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/06-orbital-business-structure.pdf",
+          "url": "/downloads/01-doctrine/06-orbital-business-structure.pdf",
+          "name": "06-orbital-business-structure.pdf",
+          "ext": "pdf",
+          "size": 118488,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/07-lifecycle-dream-orbital-world.docx",
+          "url": "/downloads/01-doctrine/07-lifecycle-dream-orbital-world.docx",
+          "name": "07-lifecycle-dream-orbital-world.docx",
+          "ext": "docx",
+          "size": 22595,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/07-lifecycle-dream-orbital-world.pdf",
+          "url": "/downloads/01-doctrine/07-lifecycle-dream-orbital-world.pdf",
+          "name": "07-lifecycle-dream-orbital-world.pdf",
+          "ext": "pdf",
+          "size": 41883,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/08-tools-change-concepts-dont.docx",
+          "url": "/downloads/01-doctrine/08-tools-change-concepts-dont.docx",
+          "name": "08-tools-change-concepts-dont.docx",
+          "ext": "docx",
+          "size": 22588,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/08-tools-change-concepts-dont.pdf",
+          "url": "/downloads/01-doctrine/08-tools-change-concepts-dont.pdf",
+          "name": "08-tools-change-concepts-dont.pdf",
+          "ext": "pdf",
+          "size": 117971,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/09-capture-and-competitive-strategy.docx",
+          "url": "/downloads/01-doctrine/09-capture-and-competitive-strategy.docx",
+          "name": "09-capture-and-competitive-strategy.docx",
+          "ext": "docx",
+          "size": 25675,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/09-capture-and-competitive-strategy.pdf",
+          "url": "/downloads/01-doctrine/09-capture-and-competitive-strategy.pdf",
+          "name": "09-capture-and-competitive-strategy.pdf",
+          "ext": "pdf",
+          "size": 131582,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/10-post-submission-and-win.docx",
+          "url": "/downloads/01-doctrine/10-post-submission-and-win.docx",
+          "name": "10-post-submission-and-win.docx",
+          "ext": "docx",
+          "size": 22992,
+          "folder": "01-doctrine",
+          "subdir": ""
+        },
+        {
+          "path": "01-doctrine/10-post-submission-and-win.pdf",
+          "url": "/downloads/01-doctrine/10-post-submission-and-win.pdf",
+          "name": "10-post-submission-and-win.pdf",
+          "ext": "pdf",
+          "size": 120865,
+          "folder": "01-doctrine",
+          "subdir": ""
+        }
+      ]
+    },
+    "02-literacy": {
+      "label": "Literacy — how to read a NOFO, color teams",
+      "files": [
+        {
+          "path": "02-literacy/acronym-decoder.docx",
+          "url": "/downloads/02-literacy/acronym-decoder.docx",
+          "name": "acronym-decoder.docx",
+          "ext": "docx",
+          "size": 22026,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/acronym-decoder.pdf",
+          "url": "/downloads/02-literacy/acronym-decoder.pdf",
+          "name": "acronym-decoder.pdf",
+          "ext": "pdf",
+          "size": 116402,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/agencies/README.docx",
+          "url": "/downloads/02-literacy/agencies/README.docx",
+          "name": "README.docx",
+          "ext": "docx",
+          "size": 24614,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/README.pdf",
+          "url": "/downloads/02-literacy/agencies/README.pdf",
+          "name": "README.pdf",
+          "ext": "pdf",
+          "size": 125947,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/dhs.docx",
+          "url": "/downloads/02-literacy/agencies/dhs.docx",
+          "name": "dhs.docx",
+          "ext": "docx",
+          "size": 24248,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/dhs.pdf",
+          "url": "/downloads/02-literacy/agencies/dhs.pdf",
+          "name": "dhs.pdf",
+          "ext": "pdf",
+          "size": 128977,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/dod.docx",
+          "url": "/downloads/02-literacy/agencies/dod.docx",
+          "name": "dod.docx",
+          "ext": "docx",
+          "size": 26299,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/dod.pdf",
+          "url": "/downloads/02-literacy/agencies/dod.pdf",
+          "name": "dod.pdf",
+          "ext": "pdf",
+          "size": 155831,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/doe.docx",
+          "url": "/downloads/02-literacy/agencies/doe.docx",
+          "name": "doe.docx",
+          "ext": "docx",
+          "size": 24516,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/doe.pdf",
+          "url": "/downloads/02-literacy/agencies/doe.pdf",
+          "name": "doe.pdf",
+          "ext": "pdf",
+          "size": 151190,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/gsa.docx",
+          "url": "/downloads/02-literacy/agencies/gsa.docx",
+          "name": "gsa.docx",
+          "ext": "docx",
+          "size": 24352,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/gsa.pdf",
+          "url": "/downloads/02-literacy/agencies/gsa.pdf",
+          "name": "gsa.pdf",
+          "ext": "pdf",
+          "size": 128203,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/nasa.docx",
+          "url": "/downloads/02-literacy/agencies/nasa.docx",
+          "name": "nasa.docx",
+          "ext": "docx",
+          "size": 24165,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/nasa.pdf",
+          "url": "/downloads/02-literacy/agencies/nasa.pdf",
+          "name": "nasa.pdf",
+          "ext": "pdf",
+          "size": 147087,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/nih.docx",
+          "url": "/downloads/02-literacy/agencies/nih.docx",
+          "name": "nih.docx",
+          "ext": "docx",
+          "size": 24343,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/nih.pdf",
+          "url": "/downloads/02-literacy/agencies/nih.pdf",
+          "name": "nih.pdf",
+          "ext": "pdf",
+          "size": 128107,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/sbir-sttr.docx",
+          "url": "/downloads/02-literacy/agencies/sbir-sttr.docx",
+          "name": "sbir-sttr.docx",
+          "ext": "docx",
+          "size": 25162,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/sbir-sttr.pdf",
+          "url": "/downloads/02-literacy/agencies/sbir-sttr.pdf",
+          "name": "sbir-sttr.pdf",
+          "ext": "pdf",
+          "size": 128790,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/state-and-civic.docx",
+          "url": "/downloads/02-literacy/agencies/state-and-civic.docx",
+          "name": "state-and-civic.docx",
+          "ext": "docx",
+          "size": 23967,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/state-and-civic.pdf",
+          "url": "/downloads/02-literacy/agencies/state-and-civic.pdf",
+          "name": "state-and-civic.pdf",
+          "ext": "pdf",
+          "size": 126606,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/va.docx",
+          "url": "/downloads/02-literacy/agencies/va.docx",
+          "name": "va.docx",
+          "ext": "docx",
+          "size": 23729,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/agencies/va.pdf",
+          "url": "/downloads/02-literacy/agencies/va.pdf",
+          "name": "va.pdf",
+          "ext": "pdf",
+          "size": 124870,
+          "folder": "02-literacy",
+          "subdir": "agencies"
+        },
+        {
+          "path": "02-literacy/capability-statement.docx",
+          "url": "/downloads/02-literacy/capability-statement.docx",
+          "name": "capability-statement.docx",
+          "ext": "docx",
+          "size": 25239,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/capability-statement.pdf",
+          "url": "/downloads/02-literacy/capability-statement.pdf",
+          "name": "capability-statement.pdf",
+          "ext": "pdf",
+          "size": 171953,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/certification-prep-companion.docx",
+          "url": "/downloads/02-literacy/certification-prep-companion.docx",
+          "name": "certification-prep-companion.docx",
+          "ext": "docx",
+          "size": 32430,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/certification-prep-companion.pdf",
+          "url": "/downloads/02-literacy/certification-prep-companion.pdf",
+          "name": "certification-prep-companion.pdf",
+          "ext": "pdf",
+          "size": 183468,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/credential-ladder.docx",
+          "url": "/downloads/02-literacy/credential-ladder.docx",
+          "name": "credential-ladder.docx",
+          "ext": "docx",
+          "size": 32009,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/credential-ladder.pdf",
+          "url": "/downloads/02-literacy/credential-ladder.pdf",
+          "name": "credential-ladder.pdf",
+          "ext": "pdf",
+          "size": 184322,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/further-reading.docx",
+          "url": "/downloads/02-literacy/further-reading.docx",
+          "name": "further-reading.docx",
+          "ext": "docx",
+          "size": 22315,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/further-reading.pdf",
+          "url": "/downloads/02-literacy/further-reading.pdf",
+          "name": "further-reading.pdf",
+          "ext": "pdf",
+          "size": 118131,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/glossary.docx",
+          "url": "/downloads/02-literacy/glossary.docx",
+          "name": "glossary.docx",
+          "ext": "docx",
+          "size": 27396,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/glossary.pdf",
+          "url": "/downloads/02-literacy/glossary.pdf",
+          "name": "glossary.pdf",
+          "ext": "pdf",
+          "size": 163235,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/how-color-teams-work.docx",
+          "url": "/downloads/02-literacy/how-color-teams-work.docx",
+          "name": "how-color-teams-work.docx",
+          "ext": "docx",
+          "size": 23893,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/how-color-teams-work.pdf",
+          "url": "/downloads/02-literacy/how-color-teams-work.pdf",
+          "name": "how-color-teams-work.pdf",
+          "ext": "pdf",
+          "size": 125728,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/how-the-machine-learns.docx",
+          "url": "/downloads/02-literacy/how-the-machine-learns.docx",
+          "name": "how-the-machine-learns.docx",
+          "ext": "docx",
+          "size": 25077,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/how-the-machine-learns.pdf",
+          "url": "/downloads/02-literacy/how-the-machine-learns.pdf",
+          "name": "how-the-machine-learns.pdf",
+          "ext": "pdf",
+          "size": 153753,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/how-to-read-a-nofo.docx",
+          "url": "/downloads/02-literacy/how-to-read-a-nofo.docx",
+          "name": "how-to-read-a-nofo.docx",
+          "ext": "docx",
+          "size": 22639,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/how-to-read-a-nofo.pdf",
+          "url": "/downloads/02-literacy/how-to-read-a-nofo.pdf",
+          "name": "how-to-read-a-nofo.pdf",
+          "ext": "pdf",
+          "size": 121359,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/how-to-read-an-rfp.docx",
+          "url": "/downloads/02-literacy/how-to-read-an-rfp.docx",
+          "name": "how-to-read-an-rfp.docx",
+          "ext": "docx",
+          "size": 22667,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/how-to-read-an-rfp.pdf",
+          "url": "/downloads/02-literacy/how-to-read-an-rfp.pdf",
+          "name": "how-to-read-an-rfp.pdf",
+          "ext": "pdf",
+          "size": 122273,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/industry-standard-canon.docx",
+          "url": "/downloads/02-literacy/industry-standard-canon.docx",
+          "name": "industry-standard-canon.docx",
+          "ext": "docx",
+          "size": 25375,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/industry-standard-canon.pdf",
+          "url": "/downloads/02-literacy/industry-standard-canon.pdf",
+          "name": "industry-standard-canon.pdf",
+          "ext": "pdf",
+          "size": 135005,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/the-four-volumes.docx",
+          "url": "/downloads/02-literacy/the-four-volumes.docx",
+          "name": "the-four-volumes.docx",
+          "ext": "docx",
+          "size": 23565,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/the-four-volumes.pdf",
+          "url": "/downloads/02-literacy/the-four-volumes.pdf",
+          "name": "the-four-volumes.pdf",
+          "ext": "pdf",
+          "size": 124174,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/where-the-money-flows.docx",
+          "url": "/downloads/02-literacy/where-the-money-flows.docx",
+          "name": "where-the-money-flows.docx",
+          "ext": "docx",
+          "size": 22610,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/where-the-money-flows.pdf",
+          "url": "/downloads/02-literacy/where-the-money-flows.pdf",
+          "name": "where-the-money-flows.pdf",
+          "ext": "pdf",
+          "size": 44165,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/why-govcon-matters.docx",
+          "url": "/downloads/02-literacy/why-govcon-matters.docx",
+          "name": "why-govcon-matters.docx",
+          "ext": "docx",
+          "size": 25711,
+          "folder": "02-literacy",
+          "subdir": ""
+        },
+        {
+          "path": "02-literacy/why-govcon-matters.pdf",
+          "url": "/downloads/02-literacy/why-govcon-matters.pdf",
+          "name": "why-govcon-matters.pdf",
+          "ext": "pdf",
+          "size": 128574,
+          "folder": "02-literacy",
+          "subdir": ""
+        }
+      ]
+    },
+    "03-modules": {
+      "label": "Modules — curriculum teaching modules",
+      "files": [
+        {
+          "path": "03-modules/README.docx",
+          "url": "/downloads/03-modules/README.docx",
+          "name": "README.docx",
+          "ext": "docx",
+          "size": 23105,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/README.pdf",
+          "url": "/downloads/03-modules/README.pdf",
+          "name": "README.pdf",
+          "ext": "pdf",
+          "size": 140820,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/company-building.docx",
+          "url": "/downloads/03-modules/company-building.docx",
+          "name": "company-building.docx",
+          "ext": "docx",
+          "size": 25256,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/company-building.pdf",
+          "url": "/downloads/03-modules/company-building.pdf",
+          "name": "company-building.pdf",
+          "ext": "pdf",
+          "size": 158571,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/doctoral/research-agenda.docx",
+          "url": "/downloads/03-modules/doctoral/research-agenda.docx",
+          "name": "research-agenda.docx",
+          "ext": "docx",
+          "size": 25813,
+          "folder": "03-modules",
+          "subdir": "doctoral"
+        },
+        {
+          "path": "03-modules/doctoral/research-agenda.pdf",
+          "url": "/downloads/03-modules/doctoral/research-agenda.pdf",
+          "name": "research-agenda.pdf",
+          "ext": "pdf",
+          "size": 143711,
+          "folder": "03-modules",
+          "subdir": "doctoral"
+        },
+        {
+          "path": "03-modules/forever-learning/README.docx",
+          "url": "/downloads/03-modules/forever-learning/README.docx",
+          "name": "README.docx",
+          "ext": "docx",
+          "size": 24755,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/README.pdf",
+          "url": "/downloads/03-modules/forever-learning/README.pdf",
+          "name": "README.pdf",
+          "ext": "pdf",
+          "size": 48121,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/alumni-community.docx",
+          "url": "/downloads/03-modules/forever-learning/alumni-community.docx",
+          "name": "alumni-community.docx",
+          "ext": "docx",
+          "size": 27496,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/alumni-community.pdf",
+          "url": "/downloads/03-modules/forever-learning/alumni-community.pdf",
+          "name": "alumni-community.pdf",
+          "ext": "pdf",
+          "size": 138467,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/executive-education.docx",
+          "url": "/downloads/03-modules/forever-learning/executive-education.docx",
+          "name": "executive-education.docx",
+          "ext": "docx",
+          "size": 29480,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/executive-education.pdf",
+          "url": "/downloads/03-modules/forever-learning/executive-education.pdf",
+          "name": "executive-education.pdf",
+          "ext": "pdf",
+          "size": 57021,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/post-doctoral-fellowship.docx",
+          "url": "/downloads/03-modules/forever-learning/post-doctoral-fellowship.docx",
+          "name": "post-doctoral-fellowship.docx",
+          "ext": "docx",
+          "size": 26680,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/post-doctoral-fellowship.pdf",
+          "url": "/downloads/03-modules/forever-learning/post-doctoral-fellowship.pdf",
+          "name": "post-doctoral-fellowship.pdf",
+          "ext": "pdf",
+          "size": 159077,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/refresh-and-recertification.docx",
+          "url": "/downloads/03-modules/forever-learning/refresh-and-recertification.docx",
+          "name": "refresh-and-recertification.docx",
+          "ext": "docx",
+          "size": 24462,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/refresh-and-recertification.pdf",
+          "url": "/downloads/03-modules/forever-learning/refresh-and-recertification.pdf",
+          "name": "refresh-and-recertification.pdf",
+          "ext": "pdf",
+          "size": 47556,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/twenty-year-arc.docx",
+          "url": "/downloads/03-modules/forever-learning/twenty-year-arc.docx",
+          "name": "twenty-year-arc.docx",
+          "ext": "docx",
+          "size": 25603,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/forever-learning/twenty-year-arc.pdf",
+          "url": "/downloads/03-modules/forever-learning/twenty-year-arc.pdf",
+          "name": "twenty-year-arc.pdf",
+          "ext": "pdf",
+          "size": 133448,
+          "folder": "03-modules",
+          "subdir": "forever-learning"
+        },
+        {
+          "path": "03-modules/graduate/advanced-finance.docx",
+          "url": "/downloads/03-modules/graduate/advanced-finance.docx",
+          "name": "advanced-finance.docx",
+          "ext": "docx",
+          "size": 24499,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/advanced-finance.pdf",
+          "url": "/downloads/03-modules/graduate/advanced-finance.pdf",
+          "name": "advanced-finance.pdf",
+          "ext": "pdf",
+          "size": 149523,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/competitive-strategy-game-theory.docx",
+          "url": "/downloads/03-modules/graduate/competitive-strategy-game-theory.docx",
+          "name": "competitive-strategy-game-theory.docx",
+          "ext": "docx",
+          "size": 24758,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/competitive-strategy-game-theory.pdf",
+          "url": "/downloads/03-modules/graduate/competitive-strategy-game-theory.pdf",
+          "name": "competitive-strategy-game-theory.pdf",
+          "ext": "pdf",
+          "size": 149029,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-competitive-market-intelligence.docx",
+          "url": "/downloads/03-modules/graduate/elective-competitive-market-intelligence.docx",
+          "name": "elective-competitive-market-intelligence.docx",
+          "ext": "docx",
+          "size": 23888,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-competitive-market-intelligence.pdf",
+          "url": "/downloads/03-modules/graduate/elective-competitive-market-intelligence.pdf",
+          "name": "elective-competitive-market-intelligence.pdf",
+          "ext": "pdf",
+          "size": 146014,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-negotiations-pricing-posture.docx",
+          "url": "/downloads/03-modules/graduate/elective-negotiations-pricing-posture.docx",
+          "name": "elective-negotiations-pricing-posture.docx",
+          "ext": "docx",
+          "size": 23809,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-negotiations-pricing-posture.pdf",
+          "url": "/downloads/03-modules/graduate/elective-negotiations-pricing-posture.pdf",
+          "name": "elective-negotiations-pricing-posture.pdf",
+          "ext": "pdf",
+          "size": 145808,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-orals-coaching.docx",
+          "url": "/downloads/03-modules/graduate/elective-orals-coaching.docx",
+          "name": "elective-orals-coaching.docx",
+          "ext": "docx",
+          "size": 23934,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-orals-coaching.pdf",
+          "url": "/downloads/03-modules/graduate/elective-orals-coaching.pdf",
+          "name": "elective-orals-coaching.pdf",
+          "ext": "pdf",
+          "size": 164645,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-proposal-management-color-teams.docx",
+          "url": "/downloads/03-modules/graduate/elective-proposal-management-color-teams.docx",
+          "name": "elective-proposal-management-color-teams.docx",
+          "ext": "docx",
+          "size": 24010,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-proposal-management-color-teams.pdf",
+          "url": "/downloads/03-modules/graduate/elective-proposal-management-color-teams.pdf",
+          "name": "elective-proposal-management-color-teams.pdf",
+          "ext": "pdf",
+          "size": 146948,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-teaming-jv-subcontracting.docx",
+          "url": "/downloads/03-modules/graduate/elective-teaming-jv-subcontracting.docx",
+          "name": "elective-teaming-jv-subcontracting.docx",
+          "ext": "docx",
+          "size": 23733,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/elective-teaming-jv-subcontracting.pdf",
+          "url": "/downloads/03-modules/graduate/elective-teaming-jv-subcontracting.pdf",
+          "name": "elective-teaming-jv-subcontracting.pdf",
+          "ext": "pdf",
+          "size": 147088,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/microeconomics-of-procurement.docx",
+          "url": "/downloads/03-modules/graduate/microeconomics-of-procurement.docx",
+          "name": "microeconomics-of-procurement.docx",
+          "ext": "docx",
+          "size": 25898,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/microeconomics-of-procurement.pdf",
+          "url": "/downloads/03-modules/graduate/microeconomics-of-procurement.pdf",
+          "name": "microeconomics-of-procurement.pdf",
+          "ext": "pdf",
+          "size": 152931,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/organizational-theory-governance.docx",
+          "url": "/downloads/03-modules/graduate/organizational-theory-governance.docx",
+          "name": "organizational-theory-governance.docx",
+          "ext": "docx",
+          "size": 24578,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/organizational-theory-governance.pdf",
+          "url": "/downloads/03-modules/graduate/organizational-theory-governance.pdf",
+          "name": "organizational-theory-governance.pdf",
+          "ext": "pdf",
+          "size": 150020,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/pipeline-economics.docx",
+          "url": "/downloads/03-modules/graduate/pipeline-economics.docx",
+          "name": "pipeline-economics.docx",
+          "ext": "docx",
+          "size": 26105,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/pipeline-economics.pdf",
+          "url": "/downloads/03-modules/graduate/pipeline-economics.pdf",
+          "name": "pipeline-economics.pdf",
+          "ext": "pdf",
+          "size": 157191,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/research-methods.docx",
+          "url": "/downloads/03-modules/graduate/research-methods.docx",
+          "name": "research-methods.docx",
+          "ext": "docx",
+          "size": 24044,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/graduate/research-methods.pdf",
+          "url": "/downloads/03-modules/graduate/research-methods.pdf",
+          "name": "research-methods.pdf",
+          "ext": "pdf",
+          "size": 148486,
+          "folder": "03-modules",
+          "subdir": "graduate"
+        },
+        {
+          "path": "03-modules/human-ai-collaboration.docx",
+          "url": "/downloads/03-modules/human-ai-collaboration.docx",
+          "name": "human-ai-collaboration.docx",
+          "ext": "docx",
+          "size": 34346,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/human-ai-collaboration.pdf",
+          "url": "/downloads/03-modules/human-ai-collaboration.pdf",
+          "name": "human-ai-collaboration.pdf",
+          "ext": "pdf",
+          "size": 166425,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/mba.docx",
+          "url": "/downloads/03-modules/mba.docx",
+          "name": "mba.docx",
+          "ext": "docx",
+          "size": 23078,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/mba.pdf",
+          "url": "/downloads/03-modules/mba.pdf",
+          "name": "mba.pdf",
+          "ext": "pdf",
+          "size": 129483,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/module-template.docx",
+          "url": "/downloads/03-modules/module-template.docx",
+          "name": "module-template.docx",
+          "ext": "docx",
+          "size": 21639,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/module-template.pdf",
+          "url": "/downloads/03-modules/module-template.pdf",
+          "name": "module-template.pdf",
+          "ext": "pdf",
+          "size": 115322,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/mpa.docx",
+          "url": "/downloads/03-modules/mpa.docx",
+          "name": "mpa.docx",
+          "ext": "docx",
+          "size": 22672,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/mpa.pdf",
+          "url": "/downloads/03-modules/mpa.pdf",
+          "name": "mpa.pdf",
+          "ext": "pdf",
+          "size": 124569,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/shared-core.docx",
+          "url": "/downloads/03-modules/shared-core.docx",
+          "name": "shared-core.docx",
+          "ext": "docx",
+          "size": 22745,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/shared-core.pdf",
+          "url": "/downloads/03-modules/shared-core.pdf",
+          "name": "shared-core.pdf",
+          "ext": "pdf",
+          "size": 127214,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/strategic-initiative.docx",
+          "url": "/downloads/03-modules/strategic-initiative.docx",
+          "name": "strategic-initiative.docx",
+          "ext": "docx",
+          "size": 24891,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/strategic-initiative.pdf",
+          "url": "/downloads/03-modules/strategic-initiative.pdf",
+          "name": "strategic-initiative.pdf",
+          "ext": "pdf",
+          "size": 43177,
+          "folder": "03-modules",
+          "subdir": ""
+        },
+        {
+          "path": "03-modules/undergraduate/README.docx",
+          "url": "/downloads/03-modules/undergraduate/README.docx",
+          "name": "README.docx",
+          "ext": "docx",
+          "size": 25502,
+          "folder": "03-modules",
+          "subdir": "undergraduate"
+        },
+        {
+          "path": "03-modules/undergraduate/README.pdf",
+          "url": "/downloads/03-modules/undergraduate/README.pdf",
+          "name": "README.pdf",
+          "ext": "pdf",
+          "size": 175909,
+          "folder": "03-modules",
+          "subdir": "undergraduate"
+        }
+      ]
+    },
+    "04-courses": {
+      "label": "Courses — undergraduate & graduate syllabi",
+      "files": [
+        {
+          "path": "04-courses/assessments-and-rubric.docx",
+          "url": "/downloads/04-courses/assessments-and-rubric.docx",
+          "name": "assessments-and-rubric.docx",
+          "ext": "docx",
+          "size": 25412,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/assessments-and-rubric.pdf",
+          "url": "/downloads/04-courses/assessments-and-rubric.pdf",
+          "name": "assessments-and-rubric.pdf",
+          "ext": "pdf",
+          "size": 135250,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/capstone-build-an-orbital.docx",
+          "url": "/downloads/04-courses/capstone-build-an-orbital.docx",
+          "name": "capstone-build-an-orbital.docx",
+          "ext": "docx",
+          "size": 22336,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/capstone-build-an-orbital.pdf",
+          "url": "/downloads/04-courses/capstone-build-an-orbital.pdf",
+          "name": "capstone-build-an-orbital.pdf",
+          "ext": "pdf",
+          "size": 124304,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-advanced/module-advanced-capture-management.docx",
+          "url": "/downloads/04-courses/doctoral-advanced/module-advanced-capture-management.docx",
+          "name": "module-advanced-capture-management.docx",
+          "ext": "docx",
+          "size": 28518,
+          "folder": "04-courses",
+          "subdir": "doctoral-advanced"
+        },
+        {
+          "path": "04-courses/doctoral-advanced/module-advanced-capture-management.pdf",
+          "url": "/downloads/04-courses/doctoral-advanced/module-advanced-capture-management.pdf",
+          "name": "module-advanced-capture-management.pdf",
+          "ext": "pdf",
+          "size": 142890,
+          "folder": "04-courses",
+          "subdir": "doctoral-advanced"
+        },
+        {
+          "path": "04-courses/doctoral-advanced/module-ai-systems.docx",
+          "url": "/downloads/04-courses/doctoral-advanced/module-ai-systems.docx",
+          "name": "module-ai-systems.docx",
+          "ext": "docx",
+          "size": 29537,
+          "folder": "04-courses",
+          "subdir": "doctoral-advanced"
+        },
+        {
+          "path": "04-courses/doctoral-advanced/module-ai-systems.pdf",
+          "url": "/downloads/04-courses/doctoral-advanced/module-ai-systems.pdf",
+          "name": "module-ai-systems.pdf",
+          "ext": "pdf",
+          "size": 170284,
+          "folder": "04-courses",
+          "subdir": "doctoral-advanced"
+        },
+        {
+          "path": "04-courses/doctoral-advanced/module-partnerships-and-ecosystems.docx",
+          "url": "/downloads/04-courses/doctoral-advanced/module-partnerships-and-ecosystems.docx",
+          "name": "module-partnerships-and-ecosystems.docx",
+          "ext": "docx",
+          "size": 27955,
+          "folder": "04-courses",
+          "subdir": "doctoral-advanced"
+        },
+        {
+          "path": "04-courses/doctoral-advanced/module-partnerships-and-ecosystems.pdf",
+          "url": "/downloads/04-courses/doctoral-advanced/module-partnerships-and-ecosystems.pdf",
+          "name": "module-partnerships-and-ecosystems.pdf",
+          "ext": "pdf",
+          "size": 144070,
+          "folder": "04-courses",
+          "subdir": "doctoral-advanced"
+        },
+        {
+          "path": "04-courses/doctoral-dissertation-sequence.docx",
+          "url": "/downloads/04-courses/doctoral-dissertation-sequence.docx",
+          "name": "doctoral-dissertation-sequence.docx",
+          "ext": "docx",
+          "size": 26521,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-dissertation-sequence.pdf",
+          "url": "/downloads/04-courses/doctoral-dissertation-sequence.pdf",
+          "name": "doctoral-dissertation-sequence.pdf",
+          "ext": "pdf",
+          "size": 55811,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-empirical-design.docx",
+          "url": "/downloads/04-courses/doctoral-empirical-design.docx",
+          "name": "doctoral-empirical-design.docx",
+          "ext": "docx",
+          "size": 28645,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-empirical-design.pdf",
+          "url": "/downloads/04-courses/doctoral-empirical-design.pdf",
+          "name": "doctoral-empirical-design.pdf",
+          "ext": "pdf",
+          "size": 146102,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-program-overview.docx",
+          "url": "/downloads/04-courses/doctoral-program-overview.docx",
+          "name": "doctoral-program-overview.docx",
+          "ext": "docx",
+          "size": 31153,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-program-overview.pdf",
+          "url": "/downloads/04-courses/doctoral-program-overview.pdf",
+          "name": "doctoral-program-overview.pdf",
+          "ext": "pdf",
+          "size": 78716,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-research-methods-i.docx",
+          "url": "/downloads/04-courses/doctoral-research-methods-i.docx",
+          "name": "doctoral-research-methods-i.docx",
+          "ext": "docx",
+          "size": 29402,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-research-methods-i.pdf",
+          "url": "/downloads/04-courses/doctoral-research-methods-i.pdf",
+          "name": "doctoral-research-methods-i.pdf",
+          "ext": "pdf",
+          "size": 68518,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-research-methods-ii.docx",
+          "url": "/downloads/04-courses/doctoral-research-methods-ii.docx",
+          "name": "doctoral-research-methods-ii.docx",
+          "ext": "docx",
+          "size": 28414,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/doctoral-research-methods-ii.pdf",
+          "url": "/downloads/04-courses/doctoral-research-methods-ii.pdf",
+          "name": "doctoral-research-methods-ii.pdf",
+          "ext": "pdf",
+          "size": 145124,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/forever-learning-program.docx",
+          "url": "/downloads/04-courses/forever-learning-program.docx",
+          "name": "forever-learning-program.docx",
+          "ext": "docx",
+          "size": 27290,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/forever-learning-program.pdf",
+          "url": "/downloads/04-courses/forever-learning-program.pdf",
+          "name": "forever-learning-program.pdf",
+          "ext": "pdf",
+          "size": 60339,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-advanced-finance.docx",
+          "url": "/downloads/04-courses/graduate-advanced-finance.docx",
+          "name": "graduate-advanced-finance.docx",
+          "ext": "docx",
+          "size": 24063,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-advanced-finance.pdf",
+          "url": "/downloads/04-courses/graduate-advanced-finance.pdf",
+          "name": "graduate-advanced-finance.pdf",
+          "ext": "pdf",
+          "size": 130400,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-competitive-strategy-game-theory.docx",
+          "url": "/downloads/04-courses/graduate-competitive-strategy-game-theory.docx",
+          "name": "graduate-competitive-strategy-game-theory.docx",
+          "ext": "docx",
+          "size": 23854,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-competitive-strategy-game-theory.pdf",
+          "url": "/downloads/04-courses/graduate-competitive-strategy-game-theory.pdf",
+          "name": "graduate-competitive-strategy-game-theory.pdf",
+          "ext": "pdf",
+          "size": 128590,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-elective-competitive-market-intelligence.docx",
+          "url": "/downloads/04-courses/graduate-elective-competitive-market-intelligence.docx",
+          "name": "graduate-elective-competitive-market-intelligence.docx",
+          "ext": "docx",
+          "size": 23040,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-elective-competitive-market-intelligence.pdf",
+          "url": "/downloads/04-courses/graduate-elective-competitive-market-intelligence.pdf",
+          "name": "graduate-elective-competitive-market-intelligence.pdf",
+          "ext": "pdf",
+          "size": 125734,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-elective-negotiations-pricing-posture.docx",
+          "url": "/downloads/04-courses/graduate-elective-negotiations-pricing-posture.docx",
+          "name": "graduate-elective-negotiations-pricing-posture.docx",
+          "ext": "docx",
+          "size": 22589,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-elective-negotiations-pricing-posture.pdf",
+          "url": "/downloads/04-courses/graduate-elective-negotiations-pricing-posture.pdf",
+          "name": "graduate-elective-negotiations-pricing-posture.pdf",
+          "ext": "pdf",
+          "size": 124677,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-elective-proposal-management-color-teams.docx",
+          "url": "/downloads/04-courses/graduate-elective-proposal-management-color-teams.docx",
+          "name": "graduate-elective-proposal-management-color-teams.docx",
+          "ext": "docx",
+          "size": 22796,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-elective-proposal-management-color-teams.pdf",
+          "url": "/downloads/04-courses/graduate-elective-proposal-management-color-teams.pdf",
+          "name": "graduate-elective-proposal-management-color-teams.pdf",
+          "ext": "pdf",
+          "size": 124042,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-elective-teaming-jv-subcontracting.docx",
+          "url": "/downloads/04-courses/graduate-elective-teaming-jv-subcontracting.docx",
+          "name": "graduate-elective-teaming-jv-subcontracting.docx",
+          "ext": "docx",
+          "size": 23068,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-elective-teaming-jv-subcontracting.pdf",
+          "url": "/downloads/04-courses/graduate-elective-teaming-jv-subcontracting.pdf",
+          "name": "graduate-elective-teaming-jv-subcontracting.pdf",
+          "ext": "pdf",
+          "size": 126480,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-microeconomics-of-procurement.docx",
+          "url": "/downloads/04-courses/graduate-microeconomics-of-procurement.docx",
+          "name": "graduate-microeconomics-of-procurement.docx",
+          "ext": "docx",
+          "size": 24243,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-microeconomics-of-procurement.pdf",
+          "url": "/downloads/04-courses/graduate-microeconomics-of-procurement.pdf",
+          "name": "graduate-microeconomics-of-procurement.pdf",
+          "ext": "pdf",
+          "size": 129963,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-organizational-theory-governance.docx",
+          "url": "/downloads/04-courses/graduate-organizational-theory-governance.docx",
+          "name": "graduate-organizational-theory-governance.docx",
+          "ext": "docx",
+          "size": 23669,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-organizational-theory-governance.pdf",
+          "url": "/downloads/04-courses/graduate-organizational-theory-governance.pdf",
+          "name": "graduate-organizational-theory-governance.pdf",
+          "ext": "pdf",
+          "size": 129809,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-program-overview.docx",
+          "url": "/downloads/04-courses/graduate-program-overview.docx",
+          "name": "graduate-program-overview.docx",
+          "ext": "docx",
+          "size": 29101,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-program-overview.pdf",
+          "url": "/downloads/04-courses/graduate-program-overview.pdf",
+          "name": "graduate-program-overview.pdf",
+          "ext": "pdf",
+          "size": 65179,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-research-methods.docx",
+          "url": "/downloads/04-courses/graduate-research-methods.docx",
+          "name": "graduate-research-methods.docx",
+          "ext": "docx",
+          "size": 23517,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/graduate-research-methods.pdf",
+          "url": "/downloads/04-courses/graduate-research-methods.pdf",
+          "name": "graduate-research-methods.pdf",
+          "ext": "pdf",
+          "size": 130186,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/syllabus-semester.docx",
+          "url": "/downloads/04-courses/syllabus-semester.docx",
+          "name": "syllabus-semester.docx",
+          "ext": "docx",
+          "size": 22903,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/syllabus-semester.pdf",
+          "url": "/downloads/04-courses/syllabus-semester.pdf",
+          "name": "syllabus-semester.pdf",
+          "ext": "pdf",
+          "size": 121133,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-101-foundations-of-government-business.docx",
+          "url": "/downloads/04-courses/undergraduate-101-foundations-of-government-business.docx",
+          "name": "undergraduate-101-foundations-of-government-business.docx",
+          "ext": "docx",
+          "size": 24053,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-101-foundations-of-government-business.pdf",
+          "url": "/downloads/04-courses/undergraduate-101-foundations-of-government-business.pdf",
+          "name": "undergraduate-101-foundations-of-government-business.pdf",
+          "ext": "pdf",
+          "size": 156950,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-102-read-the-solicitation.docx",
+          "url": "/downloads/04-courses/undergraduate-102-read-the-solicitation.docx",
+          "name": "undergraduate-102-read-the-solicitation.docx",
+          "ext": "docx",
+          "size": 23960,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-102-read-the-solicitation.pdf",
+          "url": "/downloads/04-courses/undergraduate-102-read-the-solicitation.pdf",
+          "name": "undergraduate-102-read-the-solicitation.pdf",
+          "ext": "pdf",
+          "size": 152862,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-210-capture-and-pursuit-pipeline.docx",
+          "url": "/downloads/04-courses/undergraduate-210-capture-and-pursuit-pipeline.docx",
+          "name": "undergraduate-210-capture-and-pursuit-pipeline.docx",
+          "ext": "docx",
+          "size": 24023,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-210-capture-and-pursuit-pipeline.pdf",
+          "url": "/downloads/04-courses/undergraduate-210-capture-and-pursuit-pipeline.pdf",
+          "name": "undergraduate-210-capture-and-pursuit-pipeline.pdf",
+          "ext": "pdf",
+          "size": 154831,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-220-pricing-and-price-to-win-fundamentals.docx",
+          "url": "/downloads/04-courses/undergraduate-220-pricing-and-price-to-win-fundamentals.docx",
+          "name": "undergraduate-220-pricing-and-price-to-win-fundamentals.docx",
+          "ext": "docx",
+          "size": 23918,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-220-pricing-and-price-to-win-fundamentals.pdf",
+          "url": "/downloads/04-courses/undergraduate-220-pricing-and-price-to-win-fundamentals.pdf",
+          "name": "undergraduate-220-pricing-and-price-to-win-fundamentals.pdf",
+          "ext": "pdf",
+          "size": 154317,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-301-procurement-law-and-far-fundamentals.docx",
+          "url": "/downloads/04-courses/undergraduate-301-procurement-law-and-far-fundamentals.docx",
+          "name": "undergraduate-301-procurement-law-and-far-fundamentals.docx",
+          "ext": "docx",
+          "size": 23732,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-301-procurement-law-and-far-fundamentals.pdf",
+          "url": "/downloads/04-courses/undergraduate-301-procurement-law-and-far-fundamentals.pdf",
+          "name": "undergraduate-301-procurement-law-and-far-fundamentals.pdf",
+          "ext": "pdf",
+          "size": 150158,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-302-proposal-production-and-compliance.docx",
+          "url": "/downloads/04-courses/undergraduate-302-proposal-production-and-compliance.docx",
+          "name": "undergraduate-302-proposal-production-and-compliance.docx",
+          "ext": "docx",
+          "size": 24972,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-302-proposal-production-and-compliance.pdf",
+          "url": "/downloads/04-courses/undergraduate-302-proposal-production-and-compliance.pdf",
+          "name": "undergraduate-302-proposal-production-and-compliance.pdf",
+          "ext": "pdf",
+          "size": 157918,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-303-government-contracts-and-subcontracting.docx",
+          "url": "/downloads/04-courses/undergraduate-303-government-contracts-and-subcontracting.docx",
+          "name": "undergraduate-303-government-contracts-and-subcontracting.docx",
+          "ext": "docx",
+          "size": 23202,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-303-government-contracts-and-subcontracting.pdf",
+          "url": "/downloads/04-courses/undergraduate-303-government-contracts-and-subcontracting.pdf",
+          "name": "undergraduate-303-government-contracts-and-subcontracting.pdf",
+          "ext": "pdf",
+          "size": 150982,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-304-data-literacy-and-analytics-for-capture.docx",
+          "url": "/downloads/04-courses/undergraduate-304-data-literacy-and-analytics-for-capture.docx",
+          "name": "undergraduate-304-data-literacy-and-analytics-for-capture.docx",
+          "ext": "docx",
+          "size": 23297,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-304-data-literacy-and-analytics-for-capture.pdf",
+          "url": "/downloads/04-courses/undergraduate-304-data-literacy-and-analytics-for-capture.pdf",
+          "name": "undergraduate-304-data-literacy-and-analytics-for-capture.pdf",
+          "ext": "pdf",
+          "size": 149606,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-305-negotiations.docx",
+          "url": "/downloads/04-courses/undergraduate-305-negotiations.docx",
+          "name": "undergraduate-305-negotiations.docx",
+          "ext": "docx",
+          "size": 23152,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-305-negotiations.pdf",
+          "url": "/downloads/04-courses/undergraduate-305-negotiations.pdf",
+          "name": "undergraduate-305-negotiations.pdf",
+          "ext": "pdf",
+          "size": 149634,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-480-capstone-build-an-orbital.docx",
+          "url": "/downloads/04-courses/undergraduate-480-capstone-build-an-orbital.docx",
+          "name": "undergraduate-480-capstone-build-an-orbital.docx",
+          "ext": "docx",
+          "size": 23252,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-480-capstone-build-an-orbital.pdf",
+          "url": "/downloads/04-courses/undergraduate-480-capstone-build-an-orbital.pdf",
+          "name": "undergraduate-480-capstone-build-an-orbital.pdf",
+          "ext": "pdf",
+          "size": 164748,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-program-overview.docx",
+          "url": "/downloads/04-courses/undergraduate-program-overview.docx",
+          "name": "undergraduate-program-overview.docx",
+          "ext": "docx",
+          "size": 28932,
+          "folder": "04-courses",
+          "subdir": ""
+        },
+        {
+          "path": "04-courses/undergraduate-program-overview.pdf",
+          "url": "/downloads/04-courses/undergraduate-program-overview.pdf",
+          "name": "undergraduate-program-overview.pdf",
+          "ext": "pdf",
+          "size": 69621,
+          "folder": "04-courses",
+          "subdir": ""
+        }
+      ]
+    },
+    "05-practice": {
+      "label": "Practice — drills, exemplars, worked cases",
+      "files": [
+        {
+          "path": "05-practice/answer-keys.docx",
+          "url": "/downloads/05-practice/answer-keys.docx",
+          "name": "answer-keys.docx",
+          "ext": "docx",
+          "size": 39133,
+          "folder": "05-practice",
+          "subdir": ""
+        },
+        {
+          "path": "05-practice/answer-keys.pdf",
+          "url": "/downloads/05-practice/answer-keys.pdf",
+          "name": "answer-keys.pdf",
+          "ext": "pdf",
+          "size": 92059,
+          "folder": "05-practice",
+          "subdir": ""
+        },
+        {
+          "path": "05-practice/capstones/README.docx",
+          "url": "/downloads/05-practice/capstones/README.docx",
+          "name": "README.docx",
+          "ext": "docx",
+          "size": 26447,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/capstones/README.pdf",
+          "url": "/downloads/05-practice/capstones/README.pdf",
+          "name": "README.pdf",
+          "ext": "pdf",
+          "size": 56253,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/capstones/doctoral-research-capstone.docx",
+          "url": "/downloads/05-practice/capstones/doctoral-research-capstone.docx",
+          "name": "doctoral-research-capstone.docx",
+          "ext": "docx",
+          "size": 30340,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/capstones/doctoral-research-capstone.pdf",
+          "url": "/downloads/05-practice/capstones/doctoral-research-capstone.pdf",
+          "name": "doctoral-research-capstone.pdf",
+          "ext": "pdf",
+          "size": 69691,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/capstones/graduate-capture-capstone.docx",
+          "url": "/downloads/05-practice/capstones/graduate-capture-capstone.docx",
+          "name": "graduate-capture-capstone.docx",
+          "ext": "docx",
+          "size": 31505,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/capstones/graduate-capture-capstone.pdf",
+          "url": "/downloads/05-practice/capstones/graduate-capture-capstone.pdf",
+          "name": "graduate-capture-capstone.pdf",
+          "ext": "pdf",
+          "size": 72803,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/capstones/portfolio-capstone.docx",
+          "url": "/downloads/05-practice/capstones/portfolio-capstone.docx",
+          "name": "portfolio-capstone.docx",
+          "ext": "docx",
+          "size": 27638,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/capstones/portfolio-capstone.pdf",
+          "url": "/downloads/05-practice/capstones/portfolio-capstone.pdf",
+          "name": "portfolio-capstone.pdf",
+          "ext": "pdf",
+          "size": 163943,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/capstones/undergraduate-pursuit-capstone.docx",
+          "url": "/downloads/05-practice/capstones/undergraduate-pursuit-capstone.docx",
+          "name": "undergraduate-pursuit-capstone.docx",
+          "ext": "docx",
+          "size": 30695,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/capstones/undergraduate-pursuit-capstone.pdf",
+          "url": "/downloads/05-practice/capstones/undergraduate-pursuit-capstone.pdf",
+          "name": "undergraduate-pursuit-capstone.pdf",
+          "ext": "pdf",
+          "size": 73426,
+          "folder": "05-practice",
+          "subdir": "capstones"
+        },
+        {
+          "path": "05-practice/challenges/README.docx",
+          "url": "/downloads/05-practice/challenges/README.docx",
+          "name": "README.docx",
+          "ext": "docx",
+          "size": 25821,
+          "folder": "05-practice",
+          "subdir": "challenges"
+        },
+        {
+          "path": "05-practice/challenges/README.pdf",
+          "url": "/downloads/05-practice/challenges/README.pdf",
+          "name": "README.pdf",
+          "ext": "pdf",
+          "size": 42361,
+          "folder": "05-practice",
+          "subdir": "challenges"
+        },
+        {
+          "path": "05-practice/challenges/answer-keys.docx",
+          "url": "/downloads/05-practice/challenges/answer-keys.docx",
+          "name": "answer-keys.docx",
+          "ext": "docx",
+          "size": 51941,
+          "folder": "05-practice",
+          "subdir": "challenges"
+        },
+        {
+          "path": "05-practice/challenges/answer-keys.pdf",
+          "url": "/downloads/05-practice/challenges/answer-keys.pdf",
+          "name": "answer-keys.pdf",
+          "ext": "pdf",
+          "size": 143011,
+          "folder": "05-practice",
+          "subdir": "challenges"
+        },
+        {
+          "path": "05-practice/challenges/problem-statements.docx",
+          "url": "/downloads/05-practice/challenges/problem-statements.docx",
+          "name": "problem-statements.docx",
+          "ext": "docx",
+          "size": 46948,
+          "folder": "05-practice",
+          "subdir": "challenges"
+        },
+        {
+          "path": "05-practice/challenges/problem-statements.pdf",
+          "url": "/downloads/05-practice/challenges/problem-statements.pdf",
+          "name": "problem-statements.pdf",
+          "ext": "pdf",
+          "size": 124211,
+          "folder": "05-practice",
+          "subdir": "challenges"
+        },
+        {
+          "path": "05-practice/company-launch-sprint.docx",
+          "url": "/downloads/05-practice/company-launch-sprint.docx",
+          "name": "company-launch-sprint.docx",
+          "ext": "docx",
+          "size": 25904,
+          "folder": "05-practice",
+          "subdir": ""
+        },
+        {
+          "path": "05-practice/company-launch-sprint.pdf",
+          "url": "/downloads/05-practice/company-launch-sprint.pdf",
+          "name": "company-launch-sprint.pdf",
+          "ext": "pdf",
+          "size": 144241,
+          "folder": "05-practice",
+          "subdir": ""
+        },
+        {
+          "path": "05-practice/exercises.docx",
+          "url": "/downloads/05-practice/exercises.docx",
+          "name": "exercises.docx",
+          "ext": "docx",
+          "size": 29144,
+          "folder": "05-practice",
+          "subdir": ""
+        },
+        {
+          "path": "05-practice/exercises.pdf",
+          "url": "/downloads/05-practice/exercises.pdf",
+          "name": "exercises.pdf",
+          "ext": "pdf",
+          "size": 72612,
+          "folder": "05-practice",
+          "subdir": ""
+        },
+        {
+          "path": "05-practice/human-ai-drills.docx",
+          "url": "/downloads/05-practice/human-ai-drills.docx",
+          "name": "human-ai-drills.docx",
+          "ext": "docx",
+          "size": 36950,
+          "folder": "05-practice",
+          "subdir": ""
+        },
+        {
+          "path": "05-practice/human-ai-drills.pdf",
+          "url": "/downloads/05-practice/human-ai-drills.pdf",
+          "name": "human-ai-drills.pdf",
+          "ext": "pdf",
+          "size": 100948,
+          "folder": "05-practice",
+          "subdir": ""
+        },
+        {
+          "path": "05-practice/worked-exemplar-day-in-the-life.docx",
+          "url": "/downloads/05-practice/worked-exemplar-day-in-the-life.docx",
+          "name": "worked-exemplar-day-in-the-life.docx",
+          "ext": "docx",
+          "size": 31752,
+          "folder": "05-practice",
+          "subdir": ""
+        },
+        {
+          "path": "05-practice/worked-exemplar-day-in-the-life.pdf",
+          "url": "/downloads/05-practice/worked-exemplar-day-in-the-life.pdf",
+          "name": "worked-exemplar-day-in-the-life.pdf",
+          "ext": "pdf",
+          "size": 80143,
+          "folder": "05-practice",
+          "subdir": ""
+        }
+      ]
+    },
+    "06-guides": {
+      "label": "Guides — onboarding, first 30 days",
+      "files": [
+        {
+          "path": "06-guides/facilitator-playbook.docx",
+          "url": "/downloads/06-guides/facilitator-playbook.docx",
+          "name": "facilitator-playbook.docx",
+          "ext": "docx",
+          "size": 26270,
+          "folder": "06-guides",
+          "subdir": ""
+        },
+        {
+          "path": "06-guides/facilitator-playbook.pdf",
+          "url": "/downloads/06-guides/facilitator-playbook.pdf",
+          "name": "facilitator-playbook.pdf",
+          "ext": "pdf",
+          "size": 135945,
+          "folder": "06-guides",
+          "subdir": ""
+        },
+        {
+          "path": "06-guides/first-30-days-govcon-bd.docx",
+          "url": "/downloads/06-guides/first-30-days-govcon-bd.docx",
+          "name": "first-30-days-govcon-bd.docx",
+          "ext": "docx",
+          "size": 26037,
+          "folder": "06-guides",
+          "subdir": ""
+        },
+        {
+          "path": "06-guides/first-30-days-govcon-bd.pdf",
+          "url": "/downloads/06-guides/first-30-days-govcon-bd.pdf",
+          "name": "first-30-days-govcon-bd.pdf",
+          "ext": "pdf",
+          "size": 133417,
+          "folder": "06-guides",
+          "subdir": ""
+        },
+        {
+          "path": "06-guides/onboarding-and-placement.docx",
+          "url": "/downloads/06-guides/onboarding-and-placement.docx",
+          "name": "onboarding-and-placement.docx",
+          "ext": "docx",
+          "size": 26887,
+          "folder": "06-guides",
+          "subdir": ""
+        },
+        {
+          "path": "06-guides/onboarding-and-placement.pdf",
+          "url": "/downloads/06-guides/onboarding-and-placement.pdf",
+          "name": "onboarding-and-placement.pdf",
+          "ext": "pdf",
+          "size": 55545,
+          "folder": "06-guides",
+          "subdir": ""
+        },
+        {
+          "path": "06-guides/simulation-day.docx",
+          "url": "/downloads/06-guides/simulation-day.docx",
+          "name": "simulation-day.docx",
+          "ext": "docx",
+          "size": 35258,
+          "folder": "06-guides",
+          "subdir": ""
+        },
+        {
+          "path": "06-guides/simulation-day.pdf",
+          "url": "/downloads/06-guides/simulation-day.pdf",
+          "name": "simulation-day.pdf",
+          "ext": "pdf",
+          "size": 195303,
+          "folder": "06-guides",
+          "subdir": ""
+        }
+      ]
+    },
+    "07-study-plans": {
+      "label": "Study plans — solo, coach/facilitator",
+      "files": [
+        {
+          "path": "07-study-plans/coach-facilitator.docx",
+          "url": "/downloads/07-study-plans/coach-facilitator.docx",
+          "name": "coach-facilitator.docx",
+          "ext": "docx",
+          "size": 22706,
+          "folder": "07-study-plans",
+          "subdir": ""
+        },
+        {
+          "path": "07-study-plans/coach-facilitator.pdf",
+          "url": "/downloads/07-study-plans/coach-facilitator.pdf",
+          "name": "coach-facilitator.pdf",
+          "ext": "pdf",
+          "size": 115649,
+          "folder": "07-study-plans",
+          "subdir": ""
+        },
+        {
+          "path": "07-study-plans/solo-professional.docx",
+          "url": "/downloads/07-study-plans/solo-professional.docx",
+          "name": "solo-professional.docx",
+          "ext": "docx",
+          "size": 23040,
+          "folder": "07-study-plans",
+          "subdir": ""
+        },
+        {
+          "path": "07-study-plans/solo-professional.pdf",
+          "url": "/downloads/07-study-plans/solo-professional.pdf",
+          "name": "solo-professional.pdf",
+          "ext": "pdf",
+          "size": 122754,
+          "folder": "07-study-plans",
+          "subdir": ""
+        },
+        {
+          "path": "07-study-plans/student.docx",
+          "url": "/downloads/07-study-plans/student.docx",
+          "name": "student.docx",
+          "ext": "docx",
+          "size": 22672,
+          "folder": "07-study-plans",
+          "subdir": ""
+        },
+        {
+          "path": "07-study-plans/student.pdf",
+          "url": "/downloads/07-study-plans/student.pdf",
+          "name": "student.pdf",
+          "ext": "pdf",
+          "size": 120506,
+          "folder": "07-study-plans",
+          "subdir": ""
+        }
+      ]
+    },
+    "08-reference": {
+      "label": "Reference — canonical corpora (align, manifests)",
+      "files": [
+        {
+          "path": "08-reference/align/README.docx",
+          "url": "/downloads/08-reference/align/README.docx",
+          "name": "README.docx",
+          "ext": "docx",
+          "size": 20356,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/align/README.pdf",
+          "url": "/downloads/08-reference/align/README.pdf",
+          "name": "README.pdf",
+          "ext": "pdf",
+          "size": 36798,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/align/concept-to-system-map.docx",
+          "url": "/downloads/08-reference/align/concept-to-system-map.docx",
+          "name": "concept-to-system-map.docx",
+          "ext": "docx",
+          "size": 34498,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/align/concept-to-system-map.pdf",
+          "url": "/downloads/08-reference/align/concept-to-system-map.pdf",
+          "name": "concept-to-system-map.pdf",
+          "ext": "pdf",
+          "size": 104531,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/align/dna-corpus-full-index.docx",
+          "url": "/downloads/08-reference/align/dna-corpus-full-index.docx",
+          "name": "dna-corpus-full-index.docx",
+          "ext": "docx",
+          "size": 37256,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/align/dna-corpus-full-index.pdf",
+          "url": "/downloads/08-reference/align/dna-corpus-full-index.pdf",
+          "name": "dna-corpus-full-index.pdf",
+          "ext": "pdf",
+          "size": 258821,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/align/shipley-book-canon.docx",
+          "url": "/downloads/08-reference/align/shipley-book-canon.docx",
+          "name": "shipley-book-canon.docx",
+          "ext": "docx",
+          "size": 27351,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/align/shipley-book-canon.pdf",
+          "url": "/downloads/08-reference/align/shipley-book-canon.pdf",
+          "name": "shipley-book-canon.pdf",
+          "ext": "pdf",
+          "size": 167401,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/align/shipley-dna-fusion-map.docx",
+          "url": "/downloads/08-reference/align/shipley-dna-fusion-map.docx",
+          "name": "shipley-dna-fusion-map.docx",
+          "ext": "docx",
+          "size": 38899,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/align/shipley-dna-fusion-map.pdf",
+          "url": "/downloads/08-reference/align/shipley-dna-fusion-map.pdf",
+          "name": "shipley-dna-fusion-map.pdf",
+          "ext": "pdf",
+          "size": 124123,
+          "folder": "08-reference",
+          "subdir": "align"
+        },
+        {
+          "path": "08-reference/research/assessment-traceability.docx",
+          "url": "/downloads/08-reference/research/assessment-traceability.docx",
+          "name": "assessment-traceability.docx",
+          "ext": "docx",
+          "size": 22941,
+          "folder": "08-reference",
+          "subdir": "research"
+        },
+        {
+          "path": "08-reference/research/assessment-traceability.pdf",
+          "url": "/downloads/08-reference/research/assessment-traceability.pdf",
+          "name": "assessment-traceability.pdf",
+          "ext": "pdf",
+          "size": 158784,
+          "folder": "08-reference",
+          "subdir": "research"
+        },
+        {
+          "path": "08-reference/research/competency-model.docx",
+          "url": "/downloads/08-reference/research/competency-model.docx",
+          "name": "competency-model.docx",
+          "ext": "docx",
+          "size": 48978,
+          "folder": "08-reference",
+          "subdir": "research"
+        },
+        {
+          "path": "08-reference/research/competency-model.pdf",
+          "url": "/downloads/08-reference/research/competency-model.pdf",
+          "name": "competency-model.pdf",
+          "ext": "pdf",
+          "size": 159346,
+          "folder": "08-reference",
+          "subdir": "research"
+        },
+        {
+          "path": "08-reference/research/credential-mapping.docx",
+          "url": "/downloads/08-reference/research/credential-mapping.docx",
+          "name": "credential-mapping.docx",
+          "ext": "docx",
+          "size": 35575,
+          "folder": "08-reference",
+          "subdir": "research"
+        },
+        {
+          "path": "08-reference/research/credential-mapping.pdf",
+          "url": "/downloads/08-reference/research/credential-mapping.pdf",
+          "name": "credential-mapping.pdf",
+          "ext": "pdf",
+          "size": 106223,
+          "folder": "08-reference",
+          "subdir": "research"
+        },
+        {
+          "path": "08-reference/research/market-accreditation.docx",
+          "url": "/downloads/08-reference/research/market-accreditation.docx",
+          "name": "market-accreditation.docx",
+          "ext": "docx",
+          "size": 42171,
+          "folder": "08-reference",
+          "subdir": "research"
+        },
+        {
+          "path": "08-reference/research/market-accreditation.pdf",
+          "url": "/downloads/08-reference/research/market-accreditation.pdf",
+          "name": "market-accreditation.pdf",
+          "ext": "pdf",
+          "size": 104401,
+          "folder": "08-reference",
+          "subdir": "research"
+        }
+      ]
+    },
+    "(root)": {
+      "label": "(root)",
+      "files": [
+        {
+          "path": "AGENTS.docx",
+          "url": "/downloads/AGENTS.docx",
+          "name": "AGENTS.docx",
+          "ext": "docx",
+          "size": 22337,
+          "folder": "",
+          "subdir": ""
+        },
+        {
+          "path": "CLAUDE.docx",
+          "url": "/downloads/CLAUDE.docx",
+          "name": "CLAUDE.docx",
+          "ext": "docx",
+          "size": 22290,
+          "folder": "",
+          "subdir": ""
+        },
+        {
+          "path": "CLAUDE.pdf",
+          "url": "/downloads/CLAUDE.pdf",
+          "name": "CLAUDE.pdf",
+          "ext": "pdf",
+          "size": 43306,
+          "folder": "",
+          "subdir": ""
+        },
+        {
+          "path": "README.docx",
+          "url": "/downloads/README.docx",
+          "name": "README.docx",
+          "ext": "docx",
+          "size": 27702,
+          "folder": "",
+          "subdir": ""
+        },
+        {
+          "path": "README.pdf",
+          "url": "/downloads/README.pdf",
+          "name": "README.pdf",
+          "ext": "pdf",
+          "size": 55125,
+          "folder": "",
+          "subdir": ""
+        },
+        {
+          "path": "changelog.docx",
+          "url": "/downloads/changelog.docx",
+          "name": "changelog.docx",
+          "ext": "docx",
+          "size": 28035,
+          "folder": "",
+          "subdir": ""
+        },
+        {
+          "path": "changelog.pdf",
+          "url": "/downloads/changelog.pdf",
+          "name": "changelog.pdf",
+          "ext": "pdf",
+          "size": 75308,
+          "folder": "",
+          "subdir": ""
+        },
+        {
+          "path": "faq.docx",
+          "url": "/downloads/faq.docx",
+          "name": "faq.docx",
+          "ext": "docx",
+          "size": 25471,
+          "folder": "",
+          "subdir": ""
+        },
+        {
+          "path": "faq.pdf",
+          "url": "/downloads/faq.pdf",
+          "name": "faq.pdf",
+          "ext": "pdf",
+          "size": 153369,
+          "folder": "",
+          "subdir": ""
+        }
+      ]
+    },
+    "case-library": {
+      "label": "case-library",
+      "files": [
+        {
+          "path": "case-library/README.docx",
+          "url": "/downloads/case-library/README.docx",
+          "name": "README.docx",
+          "ext": "docx",
+          "size": 23146,
+          "folder": "case-library",
+          "subdir": ""
+        },
+        {
+          "path": "case-library/README.pdf",
+          "url": "/downloads/case-library/README.pdf",
+          "name": "README.pdf",
+          "ext": "pdf",
+          "size": 120117,
+          "folder": "case-library",
+          "subdir": ""
+        },
+        {
+          "path": "case-library/case-01.docx",
+          "url": "/downloads/case-library/case-01.docx",
+          "name": "case-01.docx",
+          "ext": "docx",
+          "size": 22055,
+          "folder": "case-library",
+          "subdir": ""
+        },
+        {
+          "path": "case-library/case-01.pdf",
+          "url": "/downloads/case-library/case-01.pdf",
+          "name": "case-01.pdf",
+          "ext": "pdf",
+          "size": 111985,
+          "folder": "case-library",
+          "subdir": ""
+        },
+        {
+          "path": "case-library/case-02.docx",
+          "url": "/downloads/case-library/case-02.docx",
+          "name": "case-02.docx",
+          "ext": "docx",
+          "size": 21830,
+          "folder": "case-library",
+          "subdir": ""
+        },
+        {
+          "path": "case-library/case-02.pdf",
+          "url": "/downloads/case-library/case-02.pdf",
+          "name": "case-02.pdf",
+          "ext": "pdf",
+          "size": 110415,
+          "folder": "case-library",
+          "subdir": ""
+        },
+        {
+          "path": "case-library/case-03.docx",
+          "url": "/downloads/case-library/case-03.docx",
+          "name": "case-03.docx",
+          "ext": "docx",
+          "size": 21747,
+          "folder": "case-library",
+          "subdir": ""
+        },
+        {
+          "path": "case-library/case-03.pdf",
+          "url": "/downloads/case-library/case-03.pdf",
+          "name": "case-03.pdf",
+          "ext": "pdf",
+          "size": 110912,
+          "folder": "case-library",
+          "subdir": ""
+        },
+        {
+          "path": "case-library/case-04.docx",
+          "url": "/downloads/case-library/case-04.docx",
+          "name": "case-04.docx",
+          "ext": "docx",
+          "size": 21739,
+          "folder": "case-library",
+          "subdir": ""
+        },
+        {
+          "path": "case-library/case-04.pdf",
+          "url": "/downloads/case-library/case-04.pdf",
+          "name": "case-04.pdf",
+          "ext": "pdf",
+          "size": 111301,
+          "folder": "case-library",
+          "subdir": ""
+        }
+      ]
+    },
+    "case-study": {
+      "label": "case-study",
+      "files": [
+        {
+          "path": "case-study/ravonics.docx",
+          "url": "/downloads/case-study/ravonics.docx",
+          "name": "ravonics.docx",
+          "ext": "docx",
+          "size": 23012,
+          "folder": "case-study",
+          "subdir": ""
+        },
+        {
+          "path": "case-study/ravonics.pdf",
+          "url": "/downloads/case-study/ravonics.pdf",
+          "name": "ravonics.pdf",
+          "ext": "pdf",
+          "size": 125064,
+          "folder": "case-study",
+          "subdir": ""
+        }
+      ]
+    }
+  }
+}

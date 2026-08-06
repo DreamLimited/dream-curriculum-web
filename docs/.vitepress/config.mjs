@@ -5,6 +5,7 @@ export default defineConfig({
   title: 'Dream Hive — The Dream Pursuit Doctrine',
   description: 'Public training portal for the Dream Pursuit Doctrine: a concept-first curriculum for winning federal business — doctrine, modules, literacy, case library, study plans, and the full course ladder.',
   base: '/', // GitHub Pages from root of gh-pages branch (uses custom domain learn.dreamhive.org)
+  publicDir: 'docs/public', // VitePress resolves publicDir as <srcDir>/public by default
   head: [
     ['meta', { name: 'theme-color', content: '#5b2d90' }],
     ['meta', { property: 'og:title', content: 'Dream Hive — The Dream Pursuit Doctrine' }],

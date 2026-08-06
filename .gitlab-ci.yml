@@ -1,0 +1,52 @@
+# Dream Curriculum Web — public training portal CI (GitLab side)
+#
+# Static VitePress documentation site. No container image is produced — the
+# site is built and published by a GitHub Actions workflow (see .github/
+# workflows/pages.yml) that runs on the GitHub mirror and deploys to GitHub
+# Pages from the `gh-pages` branch, which git-mirror-reconciler keeps in sync.
+#
+# Posture: launch-sequence validate-only pipeline (source assurance: lint +
+# SAST), plus a `build` job that proves `npm run docs:build` compiles cleanly
+# so broken frontmatter/dead Markdown refs fail CI instead of shipping. There
+# is no Harbor image, no K8s deploy, and no orbital.yaml — GitHub Pages is the
+# sole hosting plane, so no launch-sequence deploy pipeline is included.
+include:
+  - project: 'DroidOpsInc/launch-sequence'
+    ref: main
+    file: '/pipelines/validate-only.yml'
+
+stages:
+  - preflight
+  - security
+  - build
+
+variables:
+  # --- Registry default (validate-only sets preflight to alpine/k8s by default) ---
+  IMAGE_REGISTRY: "harbor.focuscell.org"
+  # Node 22 LTS for the preflight lint and the build job, via the dockerhub proxy.
+  PREFLIGHT_IMAGE: "${IMAGE_REGISTRY}/dockerhub-proxy/library/node:22-alpine"
+  BUILD_IMAGE: "${IMAGE_REGISTRY}/dockerhub-proxy/library/node:22-alpine"
+  # validate-only requires a lint command. No Markdown linter is wired yet —
+  # source-assurance for this repo is the `build` job's docs:build. Keep preflight
+  # a cheap registry/no-op so it doesn't duplicate the build job's npm ci.
+  PREFLIGHT_COMMANDS: "echo 'lint: markdown linter not wired; gated by build/docs:build' && npm --version"
+
+# --- Prove the VitePress site compiles into dist/ (source assurance) ---
+build:
+  stage: build
+  image: $BUILD_IMAGE
+  cache:
+    key:
+      files:
+        - package-lock.json
+    paths:
+      - node_modules/
+  script:
+    - npm ci --no-audit --no-fund
+    - npm run docs:build
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+      when: always
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
+      when: always
+    # Plain feature-branch push pipelines stay empty (validate-only canary note).

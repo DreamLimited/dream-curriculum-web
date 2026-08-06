@@ -1,0 +1,55 @@
+# Dream Curriculum Web — publish to GitHub Pages
+#
+# Runs on the GitHub mirror (DreamLimited/dream-curriculum-web). Builds the
+# VitePress static site and deploys it to GitHub Pages from the `gh-pages`
+# branch. gh-pages is also kept in sync by git-mirror-reconciler so the
+# published tree tracks the source of truth (GitLab main).
+name: Deploy VitePress to GH Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to Pages.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment; cancel in-progress runs for the same ref.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: package-lock.json
+      - name: Install deps
+        run: npm ci --no-audit --no-fund
+      - name: Build VitePress
+        run: npm run docs:build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/.vitepress/dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

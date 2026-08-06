@@ -145,10 +145,10 @@ export default defineConfig({
         },
       ],
     },
-    footer: {
-      message: 'The Dream Pursuit Doctrine — a concept-first curriculum for winning federal business.',
-      copyright: '© 2026 Dream Hive · DreamLimited',
-    },
+    footer: false, // Stock VPFooter hides on sidebar pages; a purpose-built footer
+    // is injected via the `layout-bottom` slot in DreamHiveLayout.vue so it
+    // renders on every page (home, docs, 404, library).
+    doctrineVersion: '0.5.1', // Static footer version line; CI can't shell `git log`.
     search: {
       provider: 'local',
       options: {

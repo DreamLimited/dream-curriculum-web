@@ -16,7 +16,7 @@ All DNA paths below are verified at **`DreamLimited/dna` `v0.18.2`** (2026-08-05
 |---|---|
 | `VERSION` (dna repo root, authoritative) | `0.18.2` |
 | `dna-manifest.yaml` → `metadata.version` | `v0.18.2` |
-| Curriculum `VERSION` | `0.5.1` |
+| Curriculum `VERSION` | `0.5.2` |
 
 ## How to read this map
 
